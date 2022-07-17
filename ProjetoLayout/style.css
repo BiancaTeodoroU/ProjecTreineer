@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+}
+
+body, button {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    position: absolute;
+    top: 0;
+
+    z-index: 99;
+}
