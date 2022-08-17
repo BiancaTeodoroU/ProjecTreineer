@@ -10,4 +10,5 @@ Fazendo o desafio https://www.frontendmentor.io/challenges/intro-section-with-dr
 
 - fazer um menu de estilo diferente utilizando select 
 
-![image](https://user-images.githubusercontent.com/101062400/185091511-0890b412-ee5e-48ee-9098-1863ff41bffc.png)
+![image](https://user-images.githubusercontent.com/101062400/185092235-f2d42d4f-9c3d-4afb-a1e1-bc4572c046a1.png)
+
