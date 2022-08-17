@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --Almost-White: hsl(0, 0%, 98%);
+    --Medium-Gray: hsl(0, 0%, 41%);
+    --Almost-Black: hsl(0, 0%, 8%);
+
+}
+
+
+html, body {
+    margin: 0;
+    overflow: hidden;
+}
+
+body, button {
+    font-family: 'Poppins', sans-serif;
+    color: var(--Almost-White);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 75px;
+    position: absolute;
+    top: 0;
+
+    z-index: 99;
+}
+
+nav svg {
+    width: 100%;
+    height: 45px;    
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul a {
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 32px;
+    padding: 0 14px;
+}
+
+nav ul select {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 30px 14px;
+}
+
+nav a {
+    color: var(--Almost-Black);
+}
+
+select {
+    border: none;
+    background: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.info-work {
+    display: flex;
+    padding: 100px 150px;
+}
+
+.info-work .container {
+    width: 50%;
+    padding-right: 50px;
+}
+
+.info-work .img-container {
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.info-work .img-container img {
+    max-width: 100%;
+    width: 80%;
+    height: 500px;
+    object-fit: fill;
+}
+
+p {
+    color: var(--Medium-Gray);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+h1 {
+    color: var(--Almost-Black);
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+button {
+    color: var(--Almost-White);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 15px 30px;
+    background: var(--Almost-Black);
+    border: none;
+    margin-top: 30px;
+}
+
+.edit-login {
+    color: var(--Almost-Black);
+    padding: 20px 10px 10px 400px;
+    font-size: 20px;
+    font-weight: 2rem;
+}
+
+.session-login-and-register {
+    display: flex;
+    align-items: center;
+}
+
+.secundary-button {
+    padding: 12px 35px;
+    font-size: 16px;
+    border: 1px solid var(--Almost-Black);
+    background-color: #fff;
+    color: var(--Almost-Black);
+    cursor: pointer;
+    margin-bottom: 18px;
+    margin-left: 20px;
+}
+
+.session-login-and-register {
+    display: flex;
+    height: 500px;
+    flex-flow: column wrap;
+    align-content: flex-end;
+}
+
+.ajust-svg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    flex-direction: row;
+}
